@@ -1,5 +1,8 @@
 # rules_eigen
+
 Bazel rules for building Eigen (https://gitlab.com/libeigen/eigen)
+
+Note: Eigen is an MPL2 library that includes GPL v3 and LGPL v2.1+ code. We've taken special care to not reference any restricted code (I.E. only MPL2 code is included).
 
 ## How to use
 
